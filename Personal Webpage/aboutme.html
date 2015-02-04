@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Copatible" content="IE-edge">
+		<meta name="viewport" content="width=device-width, intial-scale-1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="main.css" rel="stylesheet">
+	</head>
+
+	<!-- Navigation -->
+	
+	<div class='nav navbar-default navbar-fixed-top'>
+		<div class='container'>
+				<div class='col-sm-6'>
+					<a href='#' id='brandImage'> <img src='img/MyLogo.png'></a>
+					<button type='button' class='navbar-toggle'
+						data-toggle='collapse'
+						data-target='.navbar-collapse'>
+						<span class='sr-only'>Toggle Navigation</span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+					</button>
+				</div>
+				<div class='col-sm-6'>
+					<ul class='nav navbar-nav nav-pills navbar-right collapse navbar-collapse'>
+						<li><a href='#profile'
+							data-toggle='collapse'
+							data-target='.navbar-collapse'>
+							Profile</a></li>
+						<li><a href='#resume'
+							data-toggle='collapse'
+							data-target='.navbar-collapse'>
+							Resume</a></li>
+						<li><a href='#contact'
+							data-toggle='collapse'
+							data-target='.navbar-collapse'>
+							Contact Me</a></li>
+					</ul>
+				</div>
+		</div>
+	</div>
+
+	<!-- Contact Me -->
+	
+	<div id='contact' class='container'>
+		<div class='row'>
+			<h4> Contact Me </h4>
+			</div>
+				<ul>
+					<li>Email: beacham.colby@gmail.com </li>
+					<li>LinkedIN: <a href='http://www.linkedin.com/in/colbybeacham'>
+					linkedin.com/in/colbybeacham</a></li>
+					<li>Twitter: <a href='http://www.twitter.com/@cbeacham'> 
+					@cbeacham </a> </li>
+					<li>Facebook: <a href='http://www.facebook.com/colbybeacham'> 
+					facebook.com/colbybeacham </a></li>
+					<li>Instagram: <a href='http://www.instagram.com/colby_beacham'>
+					@colby_beacham </a> </li>
+					<li>Phone: (616) 610-7575</li>
+				</ul>
+			</div>
+	</div>
+
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+		  $(function() {
+			$('.nav-tabs a').click(function (e) {
+			  e.preventDefault();
+			  $(this).tab('show');
+			});
+		  });
+		</script>
+	</body>
+
+	<footer>
+		<div class='container footerText'>
+			<p class='col-md-5'> Created By: </p>
+			<p class='col-md-2'><a href='#'> <img src='img/MyLogo.png'></a></p>
+			<p class='col-md-5'> Colby Beacham 2015 </p>
+		</div>
+	</footer>
+
+</html>
